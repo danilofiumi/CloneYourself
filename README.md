@@ -26,9 +26,10 @@ Create realistic deepfakes for UGC (User Generated Content) videos by cloning yo
 ## 2. FaceFusion Setup
 1. Take a selfie  
 2. Upload the selfie, your cloned voice and the Real UGC video with which you want to change your face on [Deepnote](https://deepnote.com)
-3. Change the sources to your uploaded files in `!python facefusion.py headless-run --face-swapper-model ghost_2_256 -s data/selfie.jpeg -t data/UgcVideo.mp4 -o out/mytest1.mp4`, for face swapping and `!python facefusion.py headless-run --processors lip_syncer -s data/FinalClonedVoice.MP3 -t out/mytest1.mp4 -o out/final_output.mp4` for lip syncing.
-4. Run the cells and wait for the process to complete.
-5. Download the output video from the `out` folder.
+3. Import `faceB.ipynb` notebook on Deepnote and spin up a new machine
+4. Change the sources to your uploaded files in `!python facefusion.py headless-run --face-swapper-model ghost_2_256 -s data/selfie.jpeg -t data/UgcVideo.mp4 -o out/mytest1.mp4`, for face swapping and `!python facefusion.py headless-run --processors lip_syncer -s data/FinalClonedVoice.MP3 -t out/mytest1.mp4 -o out/final_output.mp4` for lip syncing.
+5. Run the cells and wait for the process to complete.
+6. Download the output video from the `out` folder.
 <br>
 <p>N.B. These instructions are for performing this procedure in the cloud and for free. Nothing prevents you from running them locally, but be careful to handle python enviroment properly and to adapt your configurations to conform to your system's requirements</a></p>
 
