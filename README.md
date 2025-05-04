@@ -2,8 +2,8 @@
 Create realistic deepfakes for UGC (User Generated Content) videos by cloning your voice and face.
 
 ## See it live and in action 📺
--  [🎥 Tutorial of Sesame CSM - Part 1 🇮🇹](URL_ADDRESS.be/SedGB8m2XLM) 
--  [🎥 Tutorial of FaceFusion - Part 2 🇮🇹](URL_ADDRESS.be/SedGB8m2XLM) 
+-  [🎥 Tutorial of Sesame CSM - Part 1 🇮🇹](https://m.youtube.com/watch?v=Ev0ZeJ6B-PE) 
+-  [🎥 Tutorial of FaceFusion - Part 2 🇮🇹](https://m.youtube.com/watch?v=T3lBkLc0OcI) 
 
 [![Tutorial](https://imgur.com/mY2lLnO.png)](https://youtu.be/SedGB8m2XLM 'Tutorial')
 <!-- <div style="display: flex; gap: 10px; align-items: center;">
