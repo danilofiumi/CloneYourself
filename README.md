@@ -15,12 +15,12 @@ Create realistic deepfakes for UGC (User Generated Content) videos by cloning yo
 ## 1. Sesame CSM Setup
 1. Record at least 5 segment of your own voice saying 5 seconds sentences
 2. Upload the 5 files audio to your drive.
-3. <p>Upload the script [CSM_Custom.ipynb](CSM_Custom.ipynb) on <a href='https://colab.research.google.com/'> Google Colab </a> or &nbsp; <a target="_blank" href="https://colab.research.google.com/drive/14qGWyOiOEkfwmy5fzvNjvPUzb4gdI4LJ?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></p>
+3. <p>Upload the script `CSM_Custom.ipynb` on <a href='https://colab.research.google.com/'> Google Colab </a> or &nbsp; <a target="_blank" href="https://colab.research.google.com/drive/14qGWyOiOEkfwmy5fzvNjvPUzb4gdI4LJ?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></p>
 4.  Change the runtime to GPU.
 5. Create an <a href='https://huggingface.co/settings/tokens'>Hugging Face Token</a> and add the token to the Colab's Secrets with the name `hf` 
-6. Change the `SPEAKER_PROMPTS` parameters in the `CSM_Custom.ipynb` notebook to match your own audio files and the respective transcriptions
+6. Change the `SPEAKER_PROMPTS` parameters in the notebook to match your own audio files and the respective transcriptions
 7. Edit the `conversation` with the segments you want to be pronunced with your cloned voice.
-8. Run the `CSM_Custom.ipynb` notebook.
+8. Run the notebook.
 9. Iterate until you get the desired results
 
 ## 2. FaceFusion Setup
